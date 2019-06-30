@@ -5,17 +5,17 @@ Step by setp guide:
 
 First we need to setup a test/development Quorum network with two nodes through [Quorum Maker](https://github.com/synechron-finlabs/quorum-maker/wiki#setting-up-quorum-testdevelopment-network):
 
-1- Clone quorum maker from [Quorum Maker github reposetory](https://github.com/synechron-finlabs/quorum-maker.git) 
+1. Clone quorum maker from [Quorum Maker github reposetory](https://github.com/synechron-finlabs/quorum-maker.git) 
 
-2- Run the following command to create the network:
+2. Run the following command to create the network:
     * `./setup.sh dev --tessera --project <projectName> --nodecount 2`
 
 
-3- Quorum maker will print to the cmd the following, we will need them later:
+3. Quorum maker will print to the cmd the following, we will need them later:
     * Node public keys
     * RPC/Node manager ports 
 
-4- Navigate to the directory created and run the network in docker:   
+4. Navigate to the directory created and run the network in docker:   
     * `cd <projectName>`
     * `docker-compose up`
 
