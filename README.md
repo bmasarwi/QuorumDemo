@@ -8,14 +8,14 @@ First we need to setup a test/development Quorum network with two nodes through 
 1- Clone quorum maker from [Quorum Maker github reposetory](https://github.com/synechron-finlabs/quorum-maker.git) 
 
 2- Run the following command to create the network:
-    ./setup.sh dev --tessera --project <projectName> --nodecount 2
+    - `./setup.sh dev --tessera --project <projectName> --nodecount 2`
 
 
 3- Quorum maker will print to the cmd the following, we will need them later:
-    Node public keys
-    RPC/Node manager ports 
+    - Node public keys
+    - RPC/Node manager ports 
 
-4- Navigate to the directory created (named after your projectName) and run docker-compose up
+4- Navigate to the directory created (named after your projectName) and run `docker-compose up`
 
 
 
