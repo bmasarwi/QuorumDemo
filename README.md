@@ -15,7 +15,9 @@ First we need to setup a test/development Quorum network with two nodes through 
     - Node public keys
     - RPC/Node manager ports 
 
-4- Navigate to the directory created (named after your projectName) and run `docker-compose up`
+4- Navigate to the directory created and run the network in docker:
+    - `cd <projectName>`
+    - `docker-compose up`
 
 
 
