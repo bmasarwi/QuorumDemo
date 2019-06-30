@@ -18,18 +18,18 @@ First we need to setup a test/development Quorum network with two nodes through 
 4- Navigate to the directory created (named after your projectName) and run docker-compose up
 
 Now you can access NodeManager UI through:
-  node1: http://localhost:20104 
-  node1: http://localhost:20204
+  - node1: http://localhost:20104 
+  - node1: http://localhost:20204
 
 ** Note: Above URLs are valid if you’re using OSX, otherwise change the port according to the NodeManager ports printed by QuorumMaker to the cmd 
 
 Through NodeManager UI, compile and deploy your contract.
-  Click on “Compile & Deploy Contract”
-  Choose your solidity file
-  Choose the other node to be “privateFor” 
+  - Click on “Compile & Deploy Contract”
+  - Choose your solidity file
+  - Choose the other node to be “privateFor” 
 
 
 
-After the contract has been deployed, you’re able to start interacting with it.
+After the contract has been deployed, you’re able to start interacting with it. See the code in this repo.
 
 
