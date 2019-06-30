@@ -1,7 +1,9 @@
 # QuorumDemo
-Using Quorum Maker to setup a blockchain network, deploying a contract and interacting with it
+Using this demo you'll be able to setup a blockchain network (using Quorum Maker), deploy a smart contract and interact with it
 
-Setup a test/development Quorum network with two nodes (https://github.com/synechron-finlabs/quorum-maker/wiki#setting-up-quorum-testdevelopment-network) through quorum maker
+Step by setp guide: 
+
+Setup a test/development Quorum network with two nodes through [Quorum Maker] (https://github.com/synechron-finlabs/quorum-maker/wiki#setting-up-quorum-testdevelopment-network)
 
 1- Clone quorum maker from https://github.com/synechron-finlabs/quorum-maker.git 
 
