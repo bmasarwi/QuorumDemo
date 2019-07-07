@@ -9,7 +9,7 @@ First we need to setup a test/development Quorum network with two nodes through 
 1. Clone quorum maker from [Quorum Maker github repository](https://github.com/synechron-finlabs/quorum-maker.git)
 
 2. Run the following command to create a Quorum development network with two nodes and tessera as privacy layer:
-    * `./setup.sh dev -p <projectName> -n 2`
+    * `./setup.sh dev -p <projectName> -n 2 -t`
     * Make sure to replace <projectName> with your project name
 
 3. Quorum maker will print to the cmd the following, we will need them later:
